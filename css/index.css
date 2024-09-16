@@ -1,0 +1,871 @@
+.main{
+    /* 设置居中 */
+    
+    /* 左侧 */
+    margin-left: 200px;
+    width: 600px;
+    height: 1000px;
+    /* border: black 1px solid; */
+    background-color: #dbe1e7;
+    margin: auto;
+
+}
+
+
+.a{
+    /* 底部界面
+    宽300高50 */
+
+    width: 600px;
+    height: 50px;
+    background-color: #ebebe5ea;
+    margin-top: 20px;
+    
+}
+
+/* 得先清除div标签的默认样式 */
+/* 但好像也不用清除的样子 */
+/* div{
+    margin: 0;
+    padding: 0;
+   
+   
+} */
+.a1{
+    /* 线切割，搞出边框和颜色后面修改 
+    对每一个小盒子设置位置
+    
+    不设置边框，不好控制
+    border: 1px solid #ee0707;
+
+    在css中加入一些奇怪代码，会导致代码的执行顺序不确定，导致样式不生效
+    
+    
+    */
+    width: 200px;
+    height: 50px;
+    
+   background-color: #0ef021ea;
+    margin-top: -21px;
+} 
+
+.a2{
+     width: 200px;
+    height: 50px;
+    background-color: #d3f20aea;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.a3{
+    width: 200px;
+    height: 50px;
+    background-color: #5115e9ea;
+    margin-left:400px;
+    margin-top: -50px;
+    
+}
+
+
+
+/* 插入图标 设置居中*/
+.a1a{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left:90px;
+    
+}
+.a1b{
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    margin-left: 90px;  
+}
+a{
+     /* 清除下划线 */
+    text-decoration: none;
+}
+
+
+
+/* 同样的代码复制 */
+.a2a{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left:90px;
+    
+}
+.a2b{
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    margin-left: 90px;  
+}
+
+
+.a3a{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left:90px;
+    
+}
+.a3b{
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    margin-left: 90px;  
+}
+
+
+
+
+
+
+/* 顶部界面 
+蓝色背景，左侧文字，右侧图片
+跟有外边距
+底部是一个弯曲的蓝色背景，下一个盒子覆盖在上面
+
+实际的网页图纸上，他的图片布局更美观+有结构，他一般是对称的*/
+
+.b{
+    width: 600px; 
+    height: 300px;
+    background-color: #007aff;
+
+    /* 设置圆角 */
+
+    border-radius: 0px 0px 50% 50%;
+}
+
+.b1{
+    width: 200px;
+    height: 100px;
+
+    
+    /* 左侧文字 */
+    font-size: 30px;
+    font-family: 微软雅黑;
+    color: #fff;
+   
+    margin-left: 100px;
+    padding-top: 50px;
+    
+    
+}
+.b2{
+      font-size: 10px;
+    font-family: 微软雅黑;
+    color: #c8bfbfd3;
+    margin-left: 100px;
+    margin-top: -60px;
+    
+}
+
+.b3{
+    /* 右侧图片 */
+    width: 300px;
+    height: 200px;
+    margin-top: -98px;
+    margin-left: 320px;
+
+}
+
+
+
+.c{
+    /* 
+    一个大白色底框
+    嵌套三个小盒子 */
+
+    width: 500px;
+    height: 380px;
+   
+
+}
+
+.c1{
+    /* 小盒子1 */
+    width: 550px;   
+    height: 100px;
+    background-color: #fff;
+    margin-left: 25px;
+    margin-top: -90px;
+    border: black 1px solid;
+    border-radius: 20px;
+    
+}
+
+.c11{
+    font-size: 30px;
+    /* 加粗 */
+
+    font-weight: bold;
+    font-family: 微软雅黑;
+    margin-left: 90px;
+    margin-top:-70px;
+}
+
+.c12{
+    font-size: 15px;
+    font-family: 微软雅黑;
+    margin-left: 90px;
+    margin-top: -20px;
+}
+.c13{
+    margin-left: 430px;
+    margin-top: 15px;
+}
+
+
+
+.c2{
+    /* 小盒子2 */
+    width: 550px;
+    height: 100px;
+    background-color:white;
+    margin-left: 25px;
+    border: black 1px solid;
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+.c21{
+    font-size: 30px;
+    /* 加粗 */
+
+    font-weight: bold;
+    font-family: 微软雅黑;
+    margin-left: 90px;
+   margin-top: -70px;
+}
+
+.c22{
+    font-size: 15px;
+    font-family: 微软雅黑;
+    margin-left: 90px;
+    margin-top: -20px;
+}
+.c23{
+    margin-left: 430px;
+    margin-top: 30px;
+}
+
+.c3{
+    /* 小盒子3 */
+    width: 550px;
+    height: 100px;
+    background-color:white;
+    margin-left: 25px;
+    border: black 1px solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    }
+
+
+.c31{
+    font-size: 30px;
+    /* 加粗 */
+
+    font-weight: bold;
+    font-family: 微软雅黑;
+    margin-left: 90px;
+   margin-top: -90px;
+}
+
+.c32{
+    font-size: 15px;
+    font-family: 微软雅黑;
+    margin-left: 90px;
+    margin-top: -20px;
+    
+}
+.c33{
+    margin-left: 430px;
+    margin-top: 1px;
+}
+
+
+
+
+.d{
+    width: 600px;
+    height: 50px;
+    background-color:#dbe1e7;
+    margin-top: -30px;
+    /* border: black 1px solid; */
+}
+.d1{
+    margin-left: 60px;
+    margin-top: -30px;  
+}
+.d2{
+    width: 20px;
+    height: 30px;
+    border: black 1px solid;
+   
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.d3{
+   margin-left: 500px;
+    margin-top: -40px;
+}
+
+
+
+
+.e{
+    width: 600px;
+    height: 1100px;
+    background-color: #dbe1e7;
+    /* border: black 1px solid; */
+}
+
+
+/* 到时候颜色透明 */
+.f{
+    width: 550px;   
+    height: 100px;
+    background-color: #dbe1e7;
+    margin-left: 25px;
+    /* border: black 1px solid; */
+    border-radius: 20px;
+}
+
+.f1{
+    /* 左侧 */
+    width: 250px;   
+    height: 100px;
+    background-color:white;
+    border: black 1px solid;
+    border-radius: 20px;
+}
+.f11{
+    font-size: 20px;
+    /* 加粗 */
+
+    font-weight: bold;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+    
+    
+
+}
+.f12{
+    font-size: 13px;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+   top: -20px;
+}
+.f13{
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    top: -90px;
+}
+
+.f2{
+    /* 又侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: -102px;
+}
+
+
+
+
+/* 下一个 g*/
+/* 到时候颜色透明 */
+.g{
+    width: 550px;   
+    height: 100px;
+    background-color: #dbe1e7;
+    margin-left: 25px;
+    /* border: black 1px solid; */
+    border-radius: 20px;
+
+    /* 添加一个外边距 */
+    position: relative;
+    top: 20px;
+}
+
+.g1{
+    /* 左侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+}
+.g11{
+    font-size: 20px;
+    /* 加粗 */
+
+    font-weight: bold;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+    
+    
+
+}
+.g12{
+    font-size: 13px;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+   top: -20px;
+}
+.g13{
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    top: -90px;
+}
+
+.g2{
+    /* 又侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: -102px;
+}
+
+
+
+
+/* 下一个 h*/
+/* 到时候颜色透明 */
+.h{
+    width: 550px;   
+    height: 100px;
+    background-color: #dbe1e7;
+    margin-left: 25px;
+    /* border: black 1px solid; */
+    border-radius: 20px;
+
+    /* 添加一个外边距 */
+    position: relative;
+    top: 40px;
+}
+
+.h1{
+    /* 左侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+}
+.h11{
+    font-size: 20px;
+    /* 加粗 */
+
+    font-weight: bold;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+    
+    
+
+}
+.h12{
+    font-size: 13px;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+   top: -20px;
+}
+.h13{
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    top: -90px;
+}
+
+.h2{
+    /* 又侧 */
+    width: 250px;   
+    height: 100px;
+    background-color:white;
+    border: black 1px solid;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: -102px;
+}
+
+
+/* 下一个 i*/
+/* 到时候颜色透明 */
+.i{
+    width: 550px;   
+    height: 100px;
+    background-color: #dbe1e7;
+    margin-left: 25px;
+    /* border: black 1px solid; */
+    border-radius: 20px;
+
+    /* 添加一个外边距 */
+    position: relative;
+    top: 60px;
+}
+
+.i1{
+    /* 左侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+}
+.i11{
+    font-size: 20px;
+    /* 加粗 */
+
+    font-weight: bold;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+    
+    
+
+}
+.i12{
+    font-size: 13px;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+   top: -20px;
+}
+.i13{
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    top: -90px;
+}
+
+.i2{
+    /* 又侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: -102px;
+}
+
+
+
+
+/* 下一个 j*/
+/* 到时候颜色透明 */
+.j{
+    width: 550px;   
+    height: 100px;
+    background-color: #dbe1e7;
+    margin-left: 25px;
+    /* border: black 1px solid; */
+    border-radius: 20px;
+
+    /* 添加一个外边距 */
+    position: relative;
+    top: 80px;
+}
+
+.j1{
+    /* 左侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+}
+.j11{
+    font-size: 20px;
+    /* 加粗 */
+
+    font-weight: bold;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+    
+    
+
+}
+.j12{
+    font-size: 13px;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+   top: -20px;
+}
+.j13{
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    top: -90px;
+}
+
+.j2{
+    /* 又侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: -102px;
+}
+
+
+
+/* 下一个 k*/
+/* 到时候颜色透明 */
+.k{
+    width: 550px;   
+    height: 100px;
+    background-color:#dbe1e7;
+    margin-left: 25px;
+    /* border: black 1px solid; */
+    border-radius: 20px;
+
+    /* 添加一个外边距 */
+    position: relative;
+    top: 100px;
+}
+
+.k1{
+    /* 左侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+}
+.k11{
+    font-size: 20px;
+    /* 加粗 */
+
+    font-weight: bold;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+    
+    
+
+}
+.k12{
+    font-size: 13px;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+   top: -20px;
+}
+.k13{
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    top: -90px;
+}
+
+.k2{
+    /* 又侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: -102px;
+}
+
+
+
+/* 下一个 l*/
+/* 到时候颜色透明 */
+.l{
+    width: 550px;   
+    height: 100px;
+    background-color:#dbe1e7;
+    margin-left: 25px;
+    /* border: black 1px solid; */
+    border-radius: 20px;
+
+    /* 添加一个外边距 */
+    position: relative;
+    top: 120px;
+}
+
+.l1{
+    /* 左侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+}
+.l11{
+    font-size: 20px;
+    /* 加粗 */
+
+    font-weight: bold;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+    
+    
+
+}
+.l12{
+    font-size: 13px;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+   top: -20px;
+}
+.l13{
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    top: -90px;
+}
+
+.l2{
+    /* 又侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: -102px;
+}
+
+/* 下一个 m*/
+/* 到时候颜色透明 */
+.m{
+    width: 550px;   
+    height: 100px;
+    background-color: #dbe1e7;
+    margin-left: 25px;
+    /* border: black 1px solid; */
+    border-radius: 20px;
+
+    /* 添加一个外边距 */
+    position: relative;
+    top: 140px;
+}
+
+.m1{
+    /* 左侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+}
+.m11{
+    font-size: 20px;
+    /* 加粗 */
+
+    font-weight: bold;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+    
+    
+
+}
+.m12{
+    font-size: 13px;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+   top: -20px;
+}
+.m13{
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    top: -90px;
+}
+
+.m2{
+    /* 又侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: -102px;
+}
+
+
+
+/* 下一个 n*/
+/* 到时候颜色透明 */
+.n{
+    width: 550px;   
+    height: 100px;
+    background-color: #dbe1e7;
+    margin-left: 25px;
+    /* border: black 1px solid; */
+    border-radius: 20px;
+
+    /* 添加一个外边距 */
+    position: relative;
+    top: 160px;
+}
+
+.n1{
+    /* 左侧 */
+    width: 250px;   
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 20px;
+}
+.n11{
+    font-size: 20px;
+    /* 加粗 */
+
+    font-weight: bold;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+    
+    
+
+}
+.n12{
+    font-size: 13px;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 30px;
+   top: -20px;
+}
+.n13{
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    top: -90px;
+}
+

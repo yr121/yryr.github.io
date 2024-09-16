@@ -1,0 +1,306 @@
+.main1{
+    width: 600px;
+    height: 900px;
+    background-color: rgb(76, 8, 247);
+    margin: auto;
+}
+.a{
+    
+    height: 100px;
+    width: 600px;
+    background-color:#3e32e8;
+    margin: auto;
+}
+.a1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+.b{
+    width: 540px;
+    height: 100px;
+    background-color:#dbe1e7;
+    margin: auto;
+    position:relative;
+    top: 20px;
+
+}
+
+.b1{
+    width: 100px;
+    height: 90px;
+    /* background-color: blue; */
+    position: relative;
+    top: 5px;
+    left: 10px;
+    background-image: url(../picture2/youjjian.png) ;
+    background-size: contain;
+}
+
+.b2{
+    font-size: 24px;
+    position: relative;
+    top: -90px;
+    left: 120px;
+    /* color: yellowgreen; */
+}
+
+.b3{
+    width: 40px;
+    height: 40px;
+     /* background-color: blue;  */
+     position: relative;
+     top: -148px;
+     left: 450px;
+     background-image: url(../picture2/waibulianjie.png) ;
+}
+
+
+
+
+.c{
+    width: 540px;
+    height: 100px;
+    background-color: #dbe1e7;
+    margin: auto;
+    position:relative;
+    top: 40px;
+
+}
+.c1{
+    width: 100px;
+    height: 90px;
+    /* background-color: blue; */
+    position: relative;
+    top: 5px;
+    left: 10px;
+    background-image: url(../picture2/paibang.png) ;
+    background-size: contain;
+}
+
+.c2{
+    font-size: 24px;
+    position: relative;
+    top: -90px;
+    left: 120px;
+    /* color: yellowgreen; */
+}
+
+.c3{
+    width: 40px;
+    height: 40px;
+     /* background-color: blue;  */
+     position: relative;
+     top: -148px;
+     left: 450px;
+     background-image: url(../picture2/waibulianjie.png) ;
+}
+
+
+
+
+
+.d{
+    width: 540px;
+    height: 100px;
+    background-color: #dbe1e7;
+    margin: auto;
+    position:relative;
+    top: 60px;
+
+}
+.d1{
+    width: 100px;
+    height: 90px;
+    /* background-color: blue; */
+    position: relative;
+    top: 5px;
+    left: 10px;
+    background-image: url(../picture2/dingzhi.png) ;
+    background-size: contain;
+}
+
+.d2{
+    font-size: 24px;
+    position: relative;
+    top: -90px;
+    left: 120px;
+    /* color: yellowgreen; */
+}
+
+.d3{
+    width: 40px;
+    height: 40px;
+     /* background-color: blue;  */
+     position: relative;
+     top: -148px;
+     left: 450px;
+     background-image: url(../picture2/waibulianjie.png) ;
+}
+
+
+
+
+
+.e{
+    width: 540px;
+    height: 100px;
+    background-color: #dbe1e7;
+    margin: auto;
+    position:relative;
+    top: 80px;
+
+}
+.e1{
+    width: 100px;
+    height: 90px;
+    /* background-color: blue; */
+    position: relative;
+    top: 5px;
+    left: 10px;
+    background-image: url(../picture2/youhuiquan.png) ;
+    background-size: contain;
+}
+
+.e2{
+    font-size: 24px;
+    position: relative;
+    top: -90px;
+    left: 120px;
+    /* color: yellowgreen; */
+}
+
+.e3{
+    width: 40px;
+    height: 40px;
+     /* background-color: blue;  */
+     position: relative;
+     top: -148px;
+     left: 450px;
+     background-image: url(../picture2/waibulianjie.png) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.yr{
+    /* 底部界面
+    宽300高50 */
+
+    width: 600px;
+    height: 50px;
+    background-color: #ebebe5ea;
+    margin-top: 371px;
+    
+}
+
+/* 得先清除div标签的默认样式 */
+/* 但好像也不用清除的样子 */
+/* div{
+    margin: 0;
+    padding: 0;
+   
+   
+} */
+.yr1{
+    /* 线切割，搞出边框和颜色后面修改 
+    对每一个小盒子设置位置
+    
+    不设置边框，不好控制
+    border: 1px solid #ee0707;
+
+    在css中加入一些奇怪代码，会导致代码的执行顺序不确定，导致样式不生效
+    
+    
+    */
+    width: 200px;
+    height: 50px;
+    
+   background-color: #0ef021ea;
+    margin-top: -21px;
+} 
+
+.yr2{
+     width: 200px;
+    height: 50px;
+    background-color: #d3f20aea;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.yr3{
+    width: 200px;
+    height: 50px;
+    background-color: #5115e9ea;
+    margin-left:400px;
+    margin-top: -50px;
+    
+}
+
+
+
+/* 插入图标 设置居中*/
+.yr1a{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left:90px;
+    
+}
+.yr1b{
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    margin-left: 90px;  
+}
+a{
+     /* 清除下划线 */
+    text-decoration: none;
+}
+
+
+
+/* 同样的代码复制 */
+.yr2a{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left:90px;
+    
+}
+.yr2b{
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    margin-left: 90px;  
+}
+
+
+.yr3a{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left:90px;
+    
+}
+.yr3b{
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    margin-left: 90px;  
+}
